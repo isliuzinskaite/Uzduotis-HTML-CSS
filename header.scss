@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 70%;
+    height: 50px;
+    margin: 0 30px;
+    padding-left: 60px;
+    align-items: center;
+
+    .container-header {
+        @include flex-between;        
+    }
+
+    .container-header {
+        button {
+            padding: 13px 25px;
+            font-size: 1rem;
+            font-weight: 300;
+            background: $blue-color;
+            color: white;
+            border-color: $blue-color;
+            border: 2px solid;
+            border-radius: 5px;
+            transition: 0.7s;
+
+            &:hover {
+                background: white;
+                color: $blue-color;
+            }
+        }
+    }
+    
+}
